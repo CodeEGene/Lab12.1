@@ -22,6 +22,7 @@ int main() {
 		return 1;
 	}
 
+
 	while (inFile >> word) {
 		wordAmount++;
 		letters += word.size();
